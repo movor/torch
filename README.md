@@ -5,7 +5,9 @@
 [![Downloads](https://poser.pugx.org/movor/torch/downloads)](https://packagist.org/packages/movor/torch)
 [![License](https://poser.pugx.org/movor/torch/license)](https://packagist.org/packages/movor/torch)
 
-*TODO*
+Lightweight vagrant box (below `600MB`), initially created by internal Movor development. After many hours of
+using it, we decided - why not share it publicly. Maybe some of you will find it usefull.
+
 ---
 
 ## Prerequests
