@@ -1,22 +1,28 @@
 # Torch
 
-### Lightweight LAMP vagrant box mainly intended for web development using Laravel
-
 [![Downloads](https://poser.pugx.org/movor/torch/downloads)](https://packagist.org/packages/movor/torch)
 [![License](https://poser.pugx.org/movor/torch/license)](https://packagist.org/packages/movor/torch)
 
-Lightweight vagrant box (below `600MB`), initially created by internal Movor development. After many hours of
-using it, we decided - why not share it publicly. Maybe some of you will find it usefull.
+### Lightweight LAMP vagrant box mainly intended for web development using Laravel
+
+*Lightweight vagrant box (below `600MB`), initially created by internal Movor development. After many hours of
+using it, we decided - why not share it publicly. Maybe some of you will find it usefull.*
 
 ---
 
 ## Prerequests
 
 To be able to use this box you'll need Vagrant and Virtualbox:
+<a href="https://medium.com/@JohnFoderaro/macos-sierra-vagrant-quick-start-guide-2b8b78913be3" target="_blank">
+- MacOS - using Homebew
+</a>
+<a href="http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-16-04/" target="_blank">
+- Ubuntu 16.04
+</a>
+<a href="https://www.vagrantup.com/docs/installation/" target="_blank">
+- Other - Official Installation Docs
+</a>
 
-- [MacOS - using Homebew](https://medium.com/@JohnFoderaro/macos-sierra-vagrant-quick-start-guide-2b8b78913be3)
-- [Ubuntu](http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-16-04/)
-- [Other - Official Installation Docs](https://www.vagrantup.com/docs/installation/)
 
 ## Setup The Box
 
