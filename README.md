@@ -12,9 +12,9 @@
 
 To be able to use this box you'll need Vagrant and Virtualbox:
 
-[MacOS - using Homebew](https://medium.com/@JohnFoderaro/macos-sierra-vagrant-quick-start-guide-2b8b78913be3)
-[Ubuntu](http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-16-04/)
-[Other - Official Installation Docs](https://www.vagrantup.com/docs/installation/)
+- [MacOS - using Homebew](https://medium.com/@JohnFoderaro/macos-sierra-vagrant-quick-start-guide-2b8b78913be3)
+- [Ubuntu](http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-16-04/)
+- [Other - Official Installation Docs](https://www.vagrantup.com/docs/installation/)
 
 ## Setup The Box
 
@@ -43,9 +43,9 @@ There is only one line you'll need to change
 config.vm.synced_folder "~/Development/web", "/var/www", :mount_options => ["dmode=777", "fmode=777"]
 ```
 
-Actually, only "~/Develompent/web" needs to be replaced by you web projects dir.
+Actually, only `~/Develompent/web` needs to be replaced by you web projects dir.
 Vagrant itself will mount this directory internally to `/var/www`, so every project you have in there
-will be accessible to from this box and apache could handle serving them.
+will be accessible from within this box and Apache can serve them all - direclty to your browser.
 
 ## Run The Box
 
