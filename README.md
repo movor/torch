@@ -1,22 +1,42 @@
 # Torch
 
-[![Downloads](https://poser.pugx.org/movor/torch/downloads)](https://packagist.org/packages/movor/torch)
+[![Github All Releases](https://img.shields.io/github/downloads/movor/torch/total.svg)]()
 [![License](https://poser.pugx.org/movor/torch/license)](https://packagist.org/packages/movor/torch)
 
 ### Lightweight LAMP vagrant box mainly intended for web development using Laravel
 
-*Lightweight vagrant box (below `600MB`), initially created by internal Movor development. After many hours of
-using it, we decided - why not share it publicly. Maybe some of you will find it usefull.*
+*Torch is lightweight Vagrant box (below `600MB`) based on `Ubuntu` OS, with `PHP` and `Apache` as a webserver.
+It was initially created for in house development. After many hours of using it, we decided - why not share
+it publicly. We hope some of you will find it usefull.*
 
 ---
 
-## Prerequests
+## Requirements
 
-To be able to use this box you'll need Vagrant and Virtualbox:
+To be able to use this box you'll need Vagrant and Virtualbox. 
+You can find more info and installation instructions in the links below
 
 - [MacOS - using Homebew](https://medium.com/@JohnFoderaro/macos-sierra-vagrant-quick-start-guide-2b8b78913be3)
 - [Ubuntu](http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-16-04/)
 - [Other - Official Installation Docs](https://www.vagrantup.com/docs/installation/)
+
+## Compatibility
+
+| Torch      | Laravel          | PHP    | Box OS 
+| ---------- | ---------------- | ------ | ------------
+| **v0.0.1** | **>= 5.1 < 5.6** | v7.0   | Ubuntu 16.04
+
+## Software Included
+
+All versions of Torch includes:
+
+- Apache
+- MySQL
+- Node.js
+- Composer
+- Git
+- NVM
+- Yarn
 
 ## Setup The Box
 
