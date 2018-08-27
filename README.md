@@ -1,30 +1,29 @@
 # Torch
 
-[![Github All Releases](https://img.shields.io/github/downloads/movor/torch/total.svg)]()
-[![License](https://poser.pugx.org/movor/torch/license)](https://packagist.org/packages/movor/torch)
+[![Total Downloads](https://img.shields.io/github/downloads/movor/torch/total.svg)]()
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/movor/torch/blob/master/LICENSE)
 
 ### Lightweight LAMP vagrant box mainly intended for web development using Laravel
 
 *Torch is lightweight Vagrant box (below `600MB`) based on `Ubuntu` OS, with `PHP` and `Apache` as a webserver.
-It was initially created for in house development. After many hours of using it, we decided - why not share
-it publicly. We hope some of you will find it usefull.*
+It was initially created for in-house development. After many hours using it, we decided - why not share it 
+publicly. Hope some of you will find it useful.*
 
 ---
 
 ## Requirements
 
-To be able to use this box you'll need Vagrant and Virtualbox. 
-You can find more info and installation instructions in the links below
-
-- [MacOS - using Homebew](https://medium.com/@JohnFoderaro/macos-sierra-vagrant-quick-start-guide-2b8b78913be3)
-- [Ubuntu](http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-16-04/)
-- [Other - Official Installation Docs](https://www.vagrantup.com/docs/installation/)
+To be able to use this box you'll need `Virtualbox` and `Vagrant`. 
+You can find more info and installation instructions in the following links:
+[MacOS](https://medium.com/@JohnFoderaro/macos-sierra-vagrant-quick-start-guide-2b8b78913be3),
+[Ubuntu](http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-16-04/) or follow
+[Official Installation Docs](https://www.vagrantup.com/docs/installation/)
 
 ## Compatibility
 
-| Torch      | Laravel          | PHP    | Box OS 
-| ---------- | ---------------- | ------ | ------------
-| **v0.0.1** | **>= 5.1 < 5.6** | v7.0   | Ubuntu 16.04
+| Torch      | Laravel          | PHP   | Box OS 
+| ---------- | ---------------- | ----- | ------------
+| **v0.1.x** | **>= 5.0 < 5.6** | 7.0   | Ubuntu 16.04
 
 ## Software Included
 
@@ -44,58 +43,59 @@ If you did not clone this repo already
 
 ```bash
 git clone git@github.com:movor/torch
-```
 
-Navigate to created directory
-
-```bash
+# ... and navigate to created project directory
 cd torch
 ```
 
-Here, you'll need to edit Vagrantfile with your favorite editor, 
-mine is Vim
+Depending of the Larval version you want to use, you need to checkout specific
+Torch version/tag (see "Compatibility" section above).
+
+First, list all tags with
 
 ```bash
-vim Vagrantfile
+git tag
+
+# Should output something like:
+v0.1.0
+v0.1.1
+v0.2.0
+v0.3.0
 ```
 
-There is only one line you'll need to change
+So, if your intent is to use e.g. Laravel 5.5, you should switch to latest v0.1 version, 
+in this case `v0.1.1`
 
-```ruby
-config.vm.synced_folder "~/Development/web", "/var/www", :mount_options => ["dmode=777", "fmode=777"]
+```bash
+git checkout v0.1.1
+
+# It will warn you that you're in "detached HEAD" state, but don't worry
 ```
 
-Actually, only `~/Develompent/web` needs to be replaced by you web projects dir.
-Vagrant itself will mount this directory internally to `/var/www`, so every project you have in there
-will be accessible from within this box and Apache can serve them all - direclty to your browser.
+## Light The Torch
 
-## Run The Box
-
-Now, only thing we need to do is 
+To start a Torch Vagrant box, type
 
 ```bash
 vagrant up
 ```
 
-and wait for a while - box is being downloaded, installed and powered up.
+and wait for a while. Box is being downloaded, installed and powered up.
 
-After all of this is completed, we can ssh into the box itself
+After all of this is completed, we can ssh into the box itself with
 
 ```bash
 vagrant ssh
 ```
 
-## Setting Up Apache To Serve Our Project
-TODO
+## Running Our Laravel Project
 
+To run Laravel project we'll need to:
 
+- clone and setup Laravel project
+- create and activate `Apache` vhost configuration
+- point local `etc/hosts` to Torch box IP address
 
-
-
-
-
-
-
-
-
-
+To keep this README as clean and short as possible, we dedicated the 
+[blog post on our site](https://movor.io/article/running-laravel-5-5-on-torch-vagrant-box) 
+and wrote step by step instructions in there. 
