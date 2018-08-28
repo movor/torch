@@ -5,7 +5,7 @@
 
 ### Lightweight LAMP vagrant box mainly intended for web development using Laravel
 
-*Torch is lightweight Vagrant box (below `600MB`) based on `Ubuntu` OS, with `PHP` and `Apache` as a webserver.
+*Torch is lightweight Vagrant box (below `600MB`) based on `Ubuntu` OS, with `PHP` and `Apache` as a HTTP server.
 It was initially created for in-house development. After many hours using it, we decided - why not share it 
 publicly. Hope some of you will find it useful.*
 
@@ -21,21 +21,19 @@ You can find more info and installation instructions in the following links:
 
 ## Compatibility
 
-| Torch      | Laravel          | PHP   | Box OS 
-| ---------- | ---------------- | ----- | ------------
-| **v0.1.x** | **>= 5.0 < 5.6** | 7.0   | Ubuntu 16.04
+| Torch      | Laravel           | PHP      | Apache  | MySql  | WebBox OS 
+| ---------- | ----------------- | -------- | ------- | ------ | ------------
+| **v0.1.x** | **>= 5.1, < 5.6** | 7.0.30   | 2.4.18  | 14.14  | Ubuntu 16.04
 
 ## Software Included
 
-All versions of Torch includes:
+Beside software from the table above, all versions of Torch includes:
 
-- Apache
-- MySQL
-- Node.js
-- Composer
-- Git
+- Composer 
+- Node
 - NVM
 - Yarn
+- Git
 
 ## Setup The Box
 
@@ -48,7 +46,7 @@ git clone git@github.com:movor/torch
 cd torch
 ```
 
-Depending of the Larval version you want to use, you need to checkout specific
+Depending of the Larvel/PHP version you want to use, you need to checkout specific
 Torch version/tag (see "Compatibility" section above).
 
 First, list all tags with
@@ -88,7 +86,7 @@ After all of this is completed, we can ssh into the box itself with
 vagrant ssh
 ```
 
-## Running Laravel Project
+## Running Laravel Project On Torch Box
 
 To keep this README as clean and short as possible, we dedicated entire
 [blog post on our web site](https://movor.io/article/running-laravel-55-on-torch-vagrant-box)
