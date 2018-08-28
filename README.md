@@ -88,14 +88,8 @@ After all of this is completed, we can ssh into the box itself with
 vagrant ssh
 ```
 
-## Running Our Laravel Project
+## Running Laravel Project
 
-To run Laravel project we'll need to:
-
-- clone and setup Laravel project
-- create and activate `Apache` vhost configuration
-- point local `etc/hosts` to Torch box IP address
-
-To keep this README as clean and short as possible, we dedicated the 
-[blog post on our site](https://movor.io/article/running-laravel-5-5-on-torch-vagrant-box) 
+To keep this README as clean and short as possible, we dedicated entire
+[blog post on our web site](https://movor.io/article/running-laravel-55-on-torch-vagrant-box)
 and wrote step by step instructions in there. 
