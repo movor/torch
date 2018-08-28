@@ -1,6 +1,5 @@
 # Torch
 
-[![Total Downloads](https://img.shields.io/github/downloads/movor/torch/total.svg)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/movor/torch/blob/master/LICENSE)
 
 ### Lightweight LAMP vagrant box mainly intended for web development using Laravel
@@ -40,7 +39,7 @@ Beside software from the table above, all versions of Torch includes:
 If you did not clone this repo already
 
 ```bash
-git clone git@github.com:movor/torch
+git clone https://github.com/movor/torch.git
 
 # ... and navigate to created project directory
 cd torch
