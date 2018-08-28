@@ -21,7 +21,7 @@ You can find more info and installation instructions in the following links:
 
 ## Compatibility
 
-| Torch      | Laravel           | PHP      | Apache  | MySql  | WebBox OS 
+| Torch      | Laravel           | PHP      | Apache  | MySql  | Box OS 
 | ---------- | ----------------- | -------- | ------- | ------ | ------------
 | **v0.1.x** | **>= 5.1, < 5.6** | 7.0.30   | 2.4.18  | 14.14  | Ubuntu 16.04
 
@@ -90,4 +90,4 @@ vagrant ssh
 
 To keep this README as clean and short as possible, we dedicated entire
 [blog post on our web site](https://movor.io/article/running-laravel-55-on-torch-vagrant-box)
-and wrote step by step instructions in there. 
+and wrote step by step instructions on how to setup Laravel project in there. 
