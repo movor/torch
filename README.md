@@ -4,15 +4,13 @@
 
 ### Lightweight LAMP vagrant box mainly intended for web development using Laravel
 
-*Torch is lightweight Vagrant box (below `600MB`) based on `Ubuntu` OS, with `PHP` and `Apache` as a HTTP server.
-It was initially created for in-house development. After many hours using it, we decided - why not share it 
-publicly. Hope some of you will find it useful.*
+*Torch is lightweight Vagrant box (below **600MB**) based on **Ubuntu** server, with **PHP** and **Apache** as a HTTP server. It was initially created for in-house development. After many hours using it, we decided - why not share it publicly. Hope some of you will find it useful.*
 
 ---
 
 ## Requirements
 
-To be able to use this box you'll need `Virtualbox` and `Vagrant`. 
+To be able to use this box you'll need **Virtualbox** and **Vagrant**. 
 You can find more info and installation instructions in the following links:
 [MacOS](https://medium.com/@JohnFoderaro/macos-sierra-vagrant-quick-start-guide-2b8b78913be3),
 [Ubuntu](http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-16-04/) or follow
@@ -45,7 +43,7 @@ git clone https://github.com/movor/torch.git
 cd torch
 ```
 
-Depending of the Larvel/PHP version you want to use, you need to checkout specific
+Depending of the Larvel and PHP version you want to use, you need to checkout specific
 Torch version/tag (see "Compatibility" section above).
 
 First, list all tags with
@@ -60,7 +58,7 @@ v0.2.0
 v0.3.0
 ```
 
-So, if your intent is to use e.g. Laravel 5.5, you should switch to latest v0.1 version, 
+So, if your intent is to use e.g. Laravel 5.5, you should switch to the latest v0.1.x version, 
 in this case `v0.1.1`
 
 ```bash
@@ -79,7 +77,7 @@ There is actually 2 roads from here.
 
 At this point, you might need some further info about setting up Laravel project with the Torch box.
 
-We dedicated entire blog post on our website: [Running Laravel On Torch Vagrant Box](https://movor.io/article/running-laravel-on-torch-vagrant-box)
+We dedicated entire blog post on our website: [Running Laravel On Torch Vagrant Box](https://movor.io/article/running-laravel-on-torch-vagrant-box#setup-torch-vagrant-box)
 
 ### Vagrant Master Road
 
