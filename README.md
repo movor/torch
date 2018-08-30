@@ -77,7 +77,7 @@ There is actually 2 roads from here.
 
 At this point, you might need some further info about setting up Laravel project with the Torch box.
 
-We dedicated entire blog post on our website: [Running Laravel On Torch Vagrant Box](https://movor.io/article/running-laravel-on-torch-vagrant-box#setup-torch-vagrant-box)
+We dedicated entire blog post on our website: [Running Laravel On Torch Vagrant Box](https://movor.io/article/running-laravel-on-torch-vagrant-box#light-the-torch)
 
 ### Vagrant Master Road
 
