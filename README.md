@@ -77,27 +77,30 @@ There is actually 2 roads from here.
 
 ### Vagrant Apprentice Road
 
-From here, you might need some further info about setting up Laravel project with the Torch box.
+At this point, you might need some further info about setting up Laravel project with the Torch box.
 
-We dedicated whole blog post on our website: [Running Laravel On Torch Vagrant Box](https://movor.io/article/running-laravel-55-on-torch-vagrant-box)
+We dedicated entire blog post on our website: [Running Laravel On Torch Vagrant Box](https://movor.io/article/running-laravel-on-torch-vagrant-box)
 
 ### Vagrant Master Road
 
-If you know what should be done, and you're using vagrant for a while, simply running
+If you know what should be done, and you're using vagrant for a while, start with inspecting `Vagrantfile` and check
+details about assigned operating memory, number of cores, shared folders etc.
+
+Finally run 
 
 ```bash
 vagrant up
 ```
 
-will download, install and power up the Torch box.
+Vagrant will download, install and power up the Torch box.
 
-Afterwards you may want to inspect `Vagrantfile` for details about assigned operating memory, number of cores, shared folders etc.
-
-And finally, ssh into it
+After this process is finished, type
 
 ```bash
 vagrant ssh
 ```
+
+aaaannd your're in :beers:
 
 ---
 
