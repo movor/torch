@@ -71,22 +71,36 @@ git checkout v0.1.1
 
 ## Light The Torch
 
-To start a Torch Vagrant box, type
+We're ready to light the torch!
+
+There is actually 2 roads from here. 
+
+### Vagrant Apprentice Road
+
+From here, you might need some further info about setting up Laravel project with the Torch box.
+
+We dedicated whole blog post on our website: [Running Laravel On Torch Vagrant Box](https://movor.io/article/running-laravel-55-on-torch-vagrant-box)
+
+### Vagrant Master Road
+
+If you know what should be done, and you're using vagrant for a while, simply running
 
 ```bash
 vagrant up
 ```
 
-and wait for a while. Box is being downloaded, installed and powered up.
+will download, install and power up the Torch box.
 
-After all of this is completed, we can ssh into the box itself with
+Afterwards you may want to inspect `Vagrantfile` for details about assigned operating memory, number of cores, shared folders etc.
+
+And finally, ssh into it
 
 ```bash
 vagrant ssh
 ```
 
-## Running Laravel Project On Torch Box
+---
 
-To keep this README as clean and short as possible, we dedicated entire
-[blog post on our web site](https://movor.io/article/running-laravel-55-on-torch-vagrant-box)
-and wrote step by step instructions on how to setup Laravel project in there. 
+Happy Vagranting,
+
+[Movor](https://movor.io/) team
