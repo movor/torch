@@ -4,7 +4,7 @@
 
 ### Lightweight LAMP vagrant box mainly intended for web development using Laravel
 
-*Torch is lightweight Vagrant box (below **600MB**) based on **Ubuntu** server, with **PHP** and **Apache** as a HTTP server. It was initially created for in-house development. After many hours using it, we decided - why not share it publicly. Hope some of you will find it useful.*
+*Torch is lightweight Vagrant box (below **500MB**) based on **Ubuntu** server, with **PHP** and **Apache** as a HTTP server. It was initially created for in-house development. After many hours using it, we decided - why not share it publicly. Hope some of you will find it useful.*
 
 ---
 
@@ -26,11 +26,15 @@ You can find more info and installation instructions in the following links:
 
 Beside software from the table above, all versions of Torch includes:
 
-- Composer 
+- Composer
 - Node
+- NPM
 - NVM
 - Yarn
 - Git
+
+If your're curious about exact versions of above software, checkout our official 
+[Vagrant Cloud Repo](https://app.vagrantup.com/movor/boxes/torch)
 
 ## Setup The Box
 
