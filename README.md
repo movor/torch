@@ -21,8 +21,8 @@ You can find more info and installation instructions in the following links:
 | Torch      | Laravel           | PHP  | Apache  | MySql  | Box OS 
 | ---------- | ----------------- | ---- | ------- | ------ | ------------
 | **v0.1.x** | **>= 5.1, < 5.6** | 7.0  | 2.4.18  | 14.14  | Ubuntu 16.04
-| **v0.2.x** | **> 5.6**         | 7.1  | 2.4.18  | 14.14  | Ubuntu 16.04
-| **v0.3.x** | **> 5.6**         | 7.2  | 2.4.18  | 14.14  | Ubuntu 16.04
+| **v0.2.x** | **>= 5.6**        | 7.1  | 2.4.18  | 14.14  | Ubuntu 16.04
+| **v0.3.x** | **>= 5.6**        | 7.2  | 2.4.18  | 14.14  | Ubuntu 16.04
 
 ## Software Included
 
