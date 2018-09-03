@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "movor/torch"
   config.vm.box_version = "0.2.0"
   config.vm.network "private_network", ip: "192.168.11.11"
-  config.vm.hostname = "torch"
+  config.vm.hostname = "torch-0-2-0"
   config.ssh.insert_key = false
   config.vm.box_check_update = false
   
