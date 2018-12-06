@@ -18,11 +18,11 @@ You can find more info and installation instructions in the following links:
 
 ## Compatibility
 
-| Torch      | Laravel           | PHP  | Apache  | MySql  | Box OS 
-| ---------- | ----------------- | ---- | ------- | ------ | ------------
-| **v0.1**   | **>= 5.1, < 5.5** | 7.0  | 2.4     | 14.14  | Ubuntu 16.04
-| **v0.2**   | **>= 5.5**        | 7.1  | 2.4     | 14.14  | Ubuntu 16.04
-| **v0.3**   | **>= 5.5**        | 7.2  | 2.4     | 14.14  | Ubuntu 16.04
+| Torch      | Laravel            | PHP  | Apache  | MySql  | Box OS 
+| ---------- | ------------------ | ---- | ------- | ------ | ------------
+| **v0.1**   | **>= 5.1, <= 5.5** | 7.0  | 2.4     | 14.14  | Ubuntu 16.04
+| **v0.2**   | **>= 5.5**         | 7.1  | 2.4     | 14.14  | Ubuntu 16.04
+| **v0.3**   | **>= 5.5**         | 7.2  | 2.4     | 14.14  | Ubuntu 16.04
 
 ## Software Included
 
